@@ -9,6 +9,11 @@
             Padding="30,0"
             VerticalOptions="Center">
 
+            <DatePicker MinimumDate="01/01/2023"
+                MaximumDate="12/31/2025"
+                Date="12/12/2023"
+                HorizontalOptions="Center"/>
+
             <Image
                 Source="dotnet_bot.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
